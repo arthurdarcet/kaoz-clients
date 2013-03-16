@@ -1,0 +1,8 @@
+[Unit]
+Description=Watch httpd logs and send new lines to kaoz
+
+[Service]
+ExecStart=/usr/share/kaoz-clients/httpd/httpd-log-watch.py
+
+[Install]
+WantedBy=multi-user.target
