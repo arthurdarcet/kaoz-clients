@@ -1,7 +1,7 @@
 #!/bin/sh
 # This script is executed each time someone logs in
 
-source "${KAOZ_CLIENTS_PATH:-/usr/share/kaoz-clients}/style/irc-style.sh"
+source "${KAOZ_CLIENTS_PATH:-/usr/share/kaoz-clients}/irc-style.sh"
 
 # Print:
 # * $1 if $PAM_TYPE is open_session,

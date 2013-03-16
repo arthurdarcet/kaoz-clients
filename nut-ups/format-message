@@ -7,7 +7,7 @@
 # ONBATT, ONLINE, LOWBATT, REPLBATT, COMMBAD, COMMOK, FSD, SHUTDOWN, NOPARENT
 
 # Configure the directory where ircpipe is
-source "${KAOZ_CLIENTS_PATH:-/usr/share/kaoz-clients}/style/irc-style.sh"
+source "${KAOZ_CLIENTS_PATH:-/usr/share/kaoz-clients}/irc-style.sh"
 
 case $2 in
     on-battery)

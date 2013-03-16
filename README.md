@@ -14,7 +14,8 @@ Pipes and style
 `pipes` provides several `ircpipe` programs to be used to send message to IRC and keeping this simple.
 Advanced users may choose to personalize an `ircpipe` for its own needs, regarding the default settings (eg. default IRC channel, Kaoz host, SSL CA).
 
-`style/irc-style.sh` defines convenient variables to format IRC messages with font style and colors.
+`irc-style.sh` defines convenient variables to format IRC messages with font style and colors.
+`config.sh` should be modified to reflect the configuration of your kaoz server. It is used by all the ircpipe.* scripts.
 
 Git
 ---

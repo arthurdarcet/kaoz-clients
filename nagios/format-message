@@ -5,7 +5,7 @@
 # will write in standard output:
 #  [Nagios] CRIT (PROBLEM) serice name: Something weird happened
 
-source "${KAOZ_CLIENTS_PATH:-/usr/share/kaoz-clients}/style/irc-style.sh"
+source "${KAOZ_CLIENTS_PATH:-/usr/share/kaoz-clients}/irc-style.sh"
 
 case "$1" in
   OK | UP)

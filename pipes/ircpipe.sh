@@ -1,16 +1,8 @@
 #!/bin/sh
 # Kaoz basic client
-# Usage: echo "mesage" |ircpipe [#channel]
+# Usage: echo "mesage" | ./ircpipe.sh [#channel]
 
-# Change these settings to match the configuration of the server
-#LISTENER_PASSWORD='MyVerySecretPassword'
-#LISTENER_HOST='localhost'
-#LISTENER_PORT=9010
-#LISTENER_SSL=false
-#LISTENER_CRT='/etc/ssl/kaoz/server.crt' #This file should only contain the certificate, not the key ;-)
-
-# Default channel
-DEFAULT_CHANNEL='#default-channel'
+source "${KAOZ_CLIENTS_PATH:-/usr/share/kaoz-clients}/config.sh"
 
 # Get channel
 if [ $# -ne 1 ]

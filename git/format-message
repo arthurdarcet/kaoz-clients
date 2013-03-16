@@ -5,7 +5,7 @@
 # Example:
 #  echo 012345 abcdef master | git/send-message
 
-source "${KAOZ_CLIENTS_PATH:-/usr/share/kaoz-clients}/style/irc-style.sh"
+source "${KAOZ_CLIENTS_PATH:-/usr/share/kaoz-clients}/irc-style.sh"
 
 read OLDREV NEWREV REFNAME
 
